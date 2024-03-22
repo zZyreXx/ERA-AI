@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Code to Node.js Connection</title>
+</head>
+<body>
+  <div id="result"></div>
+
+  <script>
+    // Make a request to your Node.js server
+    fetch('/data')
+      .then(response => response.json())
+      .then(data => {
+        // Update the DOM with the received data
+        document.getElementById('result').innerText = data.message;
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  </script>
+</body>
+</html>
