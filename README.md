@@ -1,4 +1,4 @@
-# Google Gemini AI Discord Bot (Taifyu Edition)
+# Google Gemini AI Discord Bot
 
 This Discord bot, crafted by Joltz, harnesses Google's Generative AI to furnish responses based on the Gemini model. It engages with messages in a designated channel, employing the Gemini model to generate content.
 
