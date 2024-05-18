@@ -35,7 +35,7 @@ CHANNEL_ID=your_discord_channel_id
 
 ## Credits
 
-- Bot devised by Joltz.
+- Bot devised by Taifyu.
 - This bot leverages the Google Generative AI library.
 - Developed with Discord.js.
 
